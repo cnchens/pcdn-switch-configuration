@@ -1,0 +1,547 @@
+system-view
+
+vlan batch 101 to 148
+vlan batch 201 to 204
+vlan batch 301 to 302
+commit
+
+interface GE 1/0/1
+port link-type access
+port default vlan 101
+commit
+quit
+
+interface GE 1/0/2
+port link-type access
+port default vlan 102
+commit
+quit
+
+interface GE 1/0/3
+port link-type access
+port default vlan 103
+commit
+quit
+
+interface GE 1/0/4
+port link-type access
+port default vlan 104
+commit
+quit
+
+interface GE 1/0/5
+port link-type access
+port default vlan 105
+commit
+quit
+
+interface GE 1/0/6
+port link-type access
+port default vlan 106
+commit
+quit
+
+interface GE 1/0/7
+port link-type access
+port default vlan 107
+commit
+quit
+
+interface GE 1/0/8
+port link-type access
+port default vlan 108
+commit
+quit
+
+interface GE 1/0/9
+port link-type access
+port default vlan 109
+commit
+quit
+
+interface GE 1/0/10
+port link-type access
+port default vlan 110
+commit
+quit
+
+interface GE 1/0/11
+port link-type access
+port default vlan 111
+commit
+quit
+
+interface GE 1/0/12
+port link-type access
+port default vlan 112
+commit
+quit
+
+interface GE 1/0/13
+port link-type access
+port default vlan 113
+commit
+quit
+
+interface GE 1/0/14
+port link-type access
+port default vlan 114
+commit
+quit
+
+interface GE 1/0/15
+port link-type access
+port default vlan 115
+commit
+quit
+
+interface GE 1/0/16
+port link-type access
+port default vlan 116
+commit
+quit
+
+interface GE 1/0/17
+port link-type access
+port default vlan 117
+commit
+quit
+
+interface GE 1/0/18
+port link-type access
+port default vlan 118
+commit
+quit
+
+interface GE 1/0/19
+port link-type access
+port default vlan 119
+commit
+quit
+
+interface GE 1/0/20
+port link-type access
+port default vlan 120
+commit
+quit
+
+interface GE 1/0/21
+port link-type access
+port default vlan 121
+commit
+quit
+
+interface GE 1/0/22
+port link-type access
+port default vlan 122
+commit
+quit
+
+interface GE 1/0/23
+port link-type access
+port default vlan 123
+commit
+quit
+
+interface GE 1/0/24
+port link-type access
+port default vlan 124
+commit
+quit
+
+interface GE 1/0/25
+port link-type access
+port default vlan 125
+commit
+quit
+
+interface GE 1/0/26
+port link-type access
+port default vlan 126
+commit
+quit
+
+interface GE 1/0/27
+port link-type access
+port default vlan 127
+commit
+quit
+
+interface GE 1/0/28
+port link-type access
+port default vlan 128
+commit
+quit
+
+interface GE 1/0/29
+port link-type access
+port default vlan 129
+commit
+quit
+
+interface GE 1/0/30
+port link-type access
+port default vlan 130
+commit
+quit
+
+interface GE 1/0/31
+port link-type access
+port default vlan 131
+commit
+quit
+
+interface GE 1/0/32
+port link-type access
+port default vlan 132
+commit
+quit
+
+interface GE 1/0/33
+port link-type access
+port default vlan 133
+commit
+quit
+
+interface GE 1/0/34
+port link-type access
+port default vlan 134
+commit
+quit
+
+interface GE 1/0/35
+port link-type access
+port default vlan 135
+commit
+quit
+
+interface GE 1/0/36
+port link-type access
+port default vlan 136
+commit
+quit
+
+interface GE 1/0/37
+port link-type access
+port default vlan 137
+commit
+quit
+
+interface GE 1/0/38
+port link-type access
+port default vlan 138
+commit
+quit
+
+interface GE 1/0/39
+port link-type access
+port default vlan 139
+commit
+quit
+
+interface GE 1/0/40
+port link-type access
+port default vlan 140
+commit
+quit
+
+interface GE 1/0/41
+port link-type access
+port default vlan 141
+commit
+quit
+
+interface GE 1/0/42
+port link-type access
+port default vlan 142
+commit
+quit
+
+interface GE 1/0/43
+port link-type access
+port default vlan 143
+commit
+quit
+
+interface GE 1/0/44
+port link-type access
+port default vlan 144
+commit
+quit
+
+interface GE 1/0/45
+port link-type access
+port default vlan 145
+commit
+quit
+
+interface GE 1/0/46
+port link-type access
+port default vlan 146
+commit
+quit
+
+interface GE 1/0/47
+port link-type access
+port default vlan 147
+commit
+quit
+
+interface GE 1/0/48
+port link-type access
+port default vlan 148
+commit
+quit
+
+interface 10GE 1/0/1
+port link-type trunk
+port trunk allow-pass vlan 101 to 148
+port trunk pvid vlan 201
+commit
+quit
+
+interface 10GE 1/0/2
+port link-type trunk
+port trunk allow-pass vlan 101 to 148
+port trunk pvid vlan 202
+commit
+quit
+
+interface 10GE 1/0/3
+port link-type trunk
+port trunk allow-pass vlan 101 to 148
+port trunk pvid vlan 203
+commit
+quit
+
+interface 10GE 1/0/4
+port link-type trunk
+port trunk allow-pass vlan 101 to 148
+port trunk pvid vlan 204
+commit
+quit
+
+interface 40GE 1/0/1
+port link-type trunk
+port trunk allow-pass vlan 101 to 148
+port trunk pvid vlan 301
+commit
+quit
+
+interface 40GE 1/0/2
+port link-type trunk
+port trunk allow-pass vlan 101 to 148
+port trunk pvid vlan 302
+commit
+quit
+
+display vlan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+quit
+
+save
+y
+
+
